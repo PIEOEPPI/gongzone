@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=1400"><!--다른 매체에서도 너비 오류 없이 볼 수 있게-->
+  <link href="./images/main/favicon_logo.png" rel="icon" type="image/png" sizes="32x32"><!--파비콘-->
+  <title>공존</title>
+
+  <!-- 슬라이드 css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" /><!--수정X-->
+  <link href="css/slidebanner.css" rel="stylesheet" type="text/css"><!--디자인에 맞게 수정-->
+
+  <!-- 내 css -->
+  <link rel="stylesheet" href="./css/sub2.css">
+
+</head>
+
+<body>
+
+  <!-- header -->
+  <header class="header_scroll">
+    <div class="header_inner">
+      <ul>
+        <li><a href="./sub1.html">STORY</a></li>
+        <li><a href="./sub2-1.html">PRODUCT</a>
+          <ul class="sub">
+            <li><a href="./sub2-1.html">BATH</a></li>
+            <li><a href="./sub2-2.html">KITCHEN</a></li>
+            <li><a href="./sub2-3.html">LIVING</a></li>
+            <li><a href="./sub2-4.html">ETC.</a></li>
+          </ul>
+        </li>
+        <li><a href="./index.html"><img src="./images/main/main_logo.png" alt="메인 로고"></a></li>
+        <li><a href="./sub3-1.html">NEWS</a>
+          <ul class="sub">
+            <li><a href="./sub3-1.html">CAMPAIGN</a></li>
+            <li><a href="./sub3-2.html">EVENT</a></li>
+          </ul>
+        </li>
+        <li><a href="./sub4-1.html">CONTACT</a>
+          <ul class="sub">
+            <li><a href="./sub4-1.html">SHOP</a></li>
+            <li><a href="./sub4-2.html">CONTACT US</a></li>
+          </ul>
+        </li>
+      </ul>
+      <div class="icon">
+        <a href="#none"><img src="./images/main/login.png" alt="로그인1"><img src="./images/main/login_hover.png"
+            alt="로그인2"></a>
+        <a href="#none"><img src="./images/main/cart.png" alt="장바구니1"><img src="./images/main/cart_hover.png"
+            alt="장바구니2"></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- main -->
+  <!-- 슬라이드 구문 -->
+  <div class="swiper-container slide">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <a href="#"><img src="./images/sub2/main_img3.jpg" alt="거실"></a>
+      </div>
+      <div class="swiper-slide">
+        <a href="#"><img src="./images/sub2/main_img4.jpg" alt="그 외"></a>
+      </div>
+      <div class="swiper-slide">
+        <a href="#"><img src="./images/sub2/main_img1.jpg" alt="욕실"></a>
+      </div>
+      <div class="swiper-slide">
+        <a href="#"><img src="./images/sub2/main_img2.jpg" alt="주방"></a>
+      </div>
+    </div>
+    <!-- 화살표 버튼 -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <!-- 블릿 버튼 -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- product -->
+  <div class="menu" id="menu">
+    <ul class="menu_inner">
+      <li><a href="./sub2-1.html#menu">BATH</a></li>
+      <li><a href="./sub2-2.html#menu">KITCHEN</a></li>
+      <li><a href="./sub2-3.html#menu">LIVING</a></li>
+      <li><a href="./sub2-4.html#menu">ETC.</a></li>
+    </ul>
+  </div>
+  <div class="product">
+    <h1>LIVING</h1>
+    <ul class="product_inner">
+      <li><a href="#none">
+          <div><img src="./images/sub2/product3-1.jpg" alt="파우치"></div>
+          <h5>파우치<br>POUCH</h5>
+          <h6>8,900원</h6>
+        </a></li>
+      <li><a href="#none">
+          <div><img src="./images/sub2/product3-2.jpg" alt="에코 백"></div>
+          <h5>에코 백<br>ECO BAG</h5>
+          <h6>15,000원</h6>
+        </a></li>
+      <li><a href="#none">
+          <div><img src=".//images/sub2/product3-3.jpg" alt="네트 백"></div>
+          <h5>네트 백<br>NET BAG</h5>
+          <h6>3,000원</h6>
+        </a></li>
+    </ul>
+  </div>
+
+  <!-- footer -->
+  <footer>
+    <div class="footer_inner">
+      <a href="./index.html" class="f_logo"><img src="./images/main/footer_logo.png" alt="푸터 로고"></a>
+      <div>
+        <ul class="link">
+          <li><a href="#">이용약관</a></li>
+          <li><a href="#">개인정보처리방침</a></li>
+          <li><a href="#">사업자등록확인</a></li>
+        </ul>
+        <p>
+          MON - SAT<br>
+          11:00 - 20:00<br>
+          일요일 및 공휴일 휴일<br>
+          <br>
+          OWNER 신미정 | TEL 010-1234-5678 | BUSINESS NUM 012-34-56789<br>
+          부산광역시 중구 중앙대로 26 다원중앙타워 10층<br>
+          Copyright © 공존 All rights reserved.
+        </p>
+      </div>
+      <ul class="sns">
+        <li><a href="#none"><img src="./images/main/sns_facebook.png" alt="페이스북"></a></li>
+        <li><a href="#none"><img src="./images/main/sns_instagram.png" alt="인스타그램"></a></li>
+        <li><a href="#none"><img src="./images/main/sns_youtube.png" alt="유튜브"></a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="./script/jquery-3.6.3.min.js"></script>
+  <script src="./script/ex.js"></script>
+
+  <!-- 슬라이드 js -->
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script><!-- 제이쿼리 라이브러리,수정X -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script><!-- 수정X -->
+  <script src="script/slidebanner_sub2.js"></script><!--디자인에 맞게 수정-->
+
+  <!-- 헤더 fixed js -->
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script><!-- 제이쿼리 라이브러리, 수정X -->
+  <script src="script/header_scroll.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,218 @@
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #414040;
+}
+
+body {
+    font-family: 'NanumSquareNeo-Variable';
+    font-size: 22px;
+    line-height: 26px;
+    color: #414040;
+    min-width: 1320px;
+}
+
+/* 스크롤바 꾸미기 */
+body::-webkit-scrollbar {
+    /*스크롤바 전체*/
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    /*스크롤바 막대*/
+    background-color: #0f5e4f;
+    border-radius: 10px;
+    background-clip: padding-box;
+    border: 2px solid transparent;
+}
+
+body::-webkit-scrollbar-track {
+    /*스크롤바 막대 외부*/
+    background-color: #ccc;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px white;
+}
+
+/* 헤더 fixed로 꾸미기 */
+.header_scroll {
+    width: 100%;
+    background-color: #fff;
+    padding: 30px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    transition: all 1s;
+    /* 부드럽게 올라가고 내려가는 효과 */
+}
+
+.nav-up {
+    top: -140px;
+    /* 헤더 높이만큼 주기 */
+}
+
+
+/* header */
+.header_inner {
+    width: 80%;
+    max-width: 1320px;
+    margin: auto;
+    position: relative;
+}
+
+.header_inner>ul {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.header_inner>ul>li {
+    display: block;
+    width: 20%;
+    text-align: center;
+}
+
+.header_inner>ul>li>a {
+    padding: 20px 0;
+}
+
+.header_inner>ul>li>a:hover {
+    color: #0f5e4f;
+}
+
+.icon {
+    position: absolute;
+    top: 27px;
+    right: 0;
+}
+
+.icon a {
+    display: inline-block;
+    position: relative;
+    margin-left: 10px;
+}
+
+.icon a img:nth-child(2) {
+    position: absolute;
+    left: 0;
+    opacity: 0;
+}
+
+.icon a:hover img:nth-child(1) {
+    opacity: 0;
+}
+
+.icon a:hover img:nth-child(2) {
+    opacity: 1;
+}
+
+/* sub menu 꾸미기 */
+.sub li a {
+    display: block;
+    background-color: #fff;
+    color: #414040;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 18px;
+}
+
+.sub li a:hover {
+    background-color: #0f5e4f;
+    color: #fff;
+}
+
+/* sub 띄우고 없애기 */
+.sub {
+    margin-top: 20px;
+    position: absolute;
+    width: 100%;
+    display: none;
+    border-radius: 20px 20px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.header_inner li {
+    position: relative;
+}
+
+/* product */
+.bodysoap img {
+    display: block;
+    margin: 140px 0 100px;
+}
+
+/* footer */
+footer {
+    background-color: #0f5e4f;
+    color: #fff;
+    padding: 90px 0;
+}
+
+.footer_inner {
+    width: 1320px;
+    margin: auto;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_inner ul {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.link a {
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.link a:hover {
+    color: #ddd;
+}
+
+.footer_inner div {
+    width: 920px;
+    font-size: 16px;
+}
+
+.footer_inner p {
+    padding-top: 50px;
+}
+
+.sns a {
+    opacity: 1;
+    display: block;
+    margin-left: 5px;
+}
+
+.sns a:hover {
+    opacity: 0.7;
+}
