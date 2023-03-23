@@ -227,6 +227,10 @@ h3 {
     margin: 0 0 15px 80px;
 }
 
+h3 img {
+    vertical-align: middle;
+}
+
 .contact p {
     font-family: 'GyeonggiBatang';
     font-size: 22px;
